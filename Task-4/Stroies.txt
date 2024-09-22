@@ -1,0 +1,114 @@
+Story 1: View Cart
+As a customer, I need to be able to view my cart so I can see the items I've added.
+Acceptance Criteria:
+The cart icon is visible in the top navigation bar.
+Clicking the cart icon displays a dropdown list of items in the cart.
+The list includes item names, quantities, and prices.
+Size: Small
+
+Story 2: Add Item to Cart
+As a customer, I need to be able to add items to my cart so I can purchase them later.
+Acceptance Criteria:
+A "Add to Cart" button is visible on each product page.
+Clicking the "Add to Cart" button adds the item to the cart.
+The cart icon updates to reflect the new item.
+Size: Small
+
+Story 3: Remove Item from Cart
+As a customer, I need to be able to remove items from my cart so I can correct mistakes.
+Acceptance Criteria:
+A "Remove" button is visible next to each item in the cart.
+Clicking the "Remove" button removes the item from the cart.
+The cart icon updates to reflect the removed item.
+Size: Small
+
+Story 4: Update Cart Quantity
+As a customer, I need to be able to update the quantity of items in my cart so I can purchase the correct amount.
+Acceptance Criteria:
+A quantity input field is visible next to each item in the cart.
+Updating the quantity field updates the item's quantity in the cart.
+The cart icon updates to reflect the updated quantity.
+Size: Small
+
+Story 5: Proceed to Checkout
+As a customer, I need to be able to proceed to checkout so I can complete my purchase.
+Acceptance Criteria:
+A "Proceed to Checkout" button is visible in the cart.
+Clicking the "Proceed to Checkout" button redirects the customer to the checkout page.
+Size: Small
+
+Story 6: Enter Shipping Address
+As a customer, I need to be able to enter my shipping address so I can receive my order.
+Acceptance Criteria:
+A shipping address form is visible on the checkout page.
+The form includes fields for name, address, city, state, and zip code.
+The form validates the input data.
+Size: Medium
+
+Story 7: Select Shipping Method
+As a customer, I need to be able to select a shipping method so I can choose the delivery speed.
+Acceptance Criteria:
+A list of shipping methods is visible on the checkout page.
+Each shipping method includes a description and estimated delivery time.
+The customer can select a shipping method.
+Size: Small
+
+Story 8: Enter Payment Information
+As a customer, I need to be able to enter my payment information so I can complete my purchase.
+Acceptance Criteria:
+A payment form is visible on the checkout page.
+The form includes fields for credit card number, expiration date, and security code.
+The form validates the input data.
+Size: Medium
+
+Story 9: Review Order
+As a customer, I need to be able to review my order so I can ensure everything is correct.
+Acceptance Criteria:
+An order summary is visible on the checkout page.
+The summary includes the items, quantities, and prices.
+The customer can review and edit their order.
+Size: Small
+
+Story 10: Complete Order
+As a customer, I need to be able to complete my order so I can receive my purchase.
+Acceptance Criteria:
+A "Complete Order" button is visible on the checkout page.
+Clicking the "Complete Order" button processes the payment and completes the order.
+The customer receives an order confirmation email.
+Size: Medium
+
+Story 11: Display Order Confirmation
+As a customer, I need to be able to view my order confirmation so I can ensure my order was successful.
+Acceptance Criteria:
+An order confirmation page is visible after completing the order.
+The page includes the order number, items, and total cost.
+The customer can print or save the order confirmation.
+Size: Small
+
+Story 12: Send Order Confirmation Email
+As a customer, I need to receive an order confirmation email so I can keep a record of my purchase.
+Acceptance Criteria:
+An order confirmation email is sent to the customer after completing the order.
+The email includes the order number, items, and total cost.
+Size: Small
+
+Story 13: Handle Payment Errors
+As a customer, I need to be able to handle payment errors so I can resolve any issues.
+Acceptance Criteria:
+A payment error message is displayed if the payment fails.
+The customer can retry the payment or contact support.
+Size: Medium
+
+Story 14: Handle Shipping Errors
+As a customer, I need to be able to handle shipping errors so I can resolve any issues.
+Acceptance Criteria:
+A shipping error message is displayed if the shipping address is invalid.
+The customer can update their shipping address or contact support.
+Size: Medium
+
+Story 15: Display Checkout Progress
+As a customer, I need to be able to view my checkout progress so I can track my progress.
+Acceptance Criteria:
+A checkout progress bar is visible on the checkout page.
+The progress bar updates as the customer completes each step.
+Size: Small
