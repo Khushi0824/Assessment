@@ -1,0 +1,31 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                sh './gradlew assemble'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh './gradlew test'
+            }
+        }
+        stage('Code Analysis') {
+            steps {
+                sh './gradlew sonarqube'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                sh './gradlew deploy'
+            }
+        }
+        stage('Monitoring') {
+            steps {
+                sh './gradlew monitoring'
+            }
+        }
+    }
+}
